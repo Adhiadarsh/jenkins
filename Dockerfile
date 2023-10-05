@@ -1,5 +1,5 @@
 # Use an official OpenJDK as the base image
-FROM openjdk:8-jre-alpine
+FROM openjdk:11.0.11-jre-slim
 
 # Set the Jenkins version and URL
 ENV JENKINS_VERSION 2.364
