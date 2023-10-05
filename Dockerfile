@@ -2,7 +2,7 @@
 FROM openjdk:8-jre-alpine
 
 # Set the Jenkins version and URL
-ENV JENKINS_VERSION 2.322
+ENV JENKINS_VERSION 2.364
 ENV JENKINS_URL https://updates.jenkins-ci.org/download/war/2.364/jenkins.war
 
 # Download and copy the Jenkins WAR file
